@@ -11,7 +11,9 @@
 
 # http://localhost:3030/
 
-#Remove-Item -Recurse -Force node_modules\.vite -ErrorAction SilentlyContinue
+Remove-Item -Recurse -Force node_modules\.vite -ErrorAction SilentlyContinue
 # Start-Sleep -Seconds 1
 # npx slidev --port 3030 --open
-npx @slidev/cli --port 3030
+# npx @slidev/cli --port 3030
+
+npx slidev
